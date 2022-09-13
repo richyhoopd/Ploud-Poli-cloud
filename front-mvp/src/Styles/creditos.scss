@@ -1,0 +1,55 @@
+@import "./var.scss";
+
+.credits {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $K-w;
+
+    h2 {
+        @extend %tittle__h2;
+        margin-top: 5rem;
+        padding: 0px 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    &__item {
+        margin-top: 2rem;
+        padding: 0px 1rem;
+        display: flex;
+        flex-direction: column;
+        
+        h3 {
+            width: 100%;
+            text-align: center;
+            color: $W-k;
+            font-size: 1.4rem;
+            margin-bottom: 0.8rem;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1rem;
+            column-rule: $W-k;
+            margin-bottom: 0.6rem;
+
+            a {
+                color: $W-g;
+                text-decoration: none;
+                @extend %transition__fast;
+            }
+
+            a:hover {
+                color: $W-g-2;
+            }
+        }
+    }
+}
+
+@media (min-width:600px) {
+    .credits {
+        &__item {
+            padding: 0px 5rem;
+        }
+    }
+}

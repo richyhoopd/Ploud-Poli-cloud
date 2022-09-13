@@ -1,0 +1,56 @@
+.beneficios {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top {
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.beneficios__mejores {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.beneficios__mejores-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.beneficios__mejores img {
+    width: 200px;
+    margin: 0;
+}
+
+.item__titulo {
+    align-items: center;
+    margin: 0;
+    font-weight: 500;
+}
+
+.caption {
+    align-items: center;
+    margin: 0;
+    font-weight: 200;
+    font-size: 18;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .beneficios__mejores {
+        padding: 1rem;
+    }
+}

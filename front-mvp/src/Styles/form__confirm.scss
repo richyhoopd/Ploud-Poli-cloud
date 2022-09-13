@@ -1,0 +1,248 @@
+@import "./var.scss";
+
+.form__confirm {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: $K-w;
+
+  .cotiza {
+    @extend %button__second;
+    margin: 1rem auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .cotiza__caca {
+    @extend %button__second;
+    margin: 1rem auto 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .cotiza:hover,
+  .cotiza__caca:hover {
+    border-color: $W-g-2;
+    color: $W-g-2;
+  }
+
+  &__benefits {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem 2rem;
+    width: 100%;
+    padding: 0px 1rem;
+    margin-top: 2rem;
+
+    &-item {
+      display: flex;
+      flex-direction: row;
+      padding: 1rem;
+      background-color: $W-w;
+      @extend %border__radius;
+      align-items: center;
+      column-gap: 1rem;
+
+      img {
+        height: 2rem;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      &-text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.4rem;
+        color: $W-k;
+
+        h3 {
+          font-size: clamp(1rem, 2vw, 1.2rem);
+        }
+
+        p {
+          font-size: clamp(0.9rem, 1.4vw, 1rem);
+        }
+      }
+    }
+  }
+
+  &__workshops {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    width: 100%;
+    padding: 0px 1rem;
+    margin-top: 2rem;
+
+    &-filters {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      row-gap: 2rem;
+      border: 1.5px solid $W-w;
+      @extend %border__radius;
+      padding: 1rem;
+      height: max-content;
+
+      &-results {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        column-gap: 0.3rem;
+        align-items: baseline;
+
+        p {
+          color: $W-k;
+          font-size: 1.1rem;
+        }
+
+        span {
+          color: $W-g;
+          font-size: 1.4rem;
+          margin-right: 0.5rem;
+        }
+
+        button {
+          @extend %button__second;
+          width: 100%;
+          max-width: none;
+          margin-top: 0.5rem;
+        }
+
+        button:hover {
+          color: $W-g-2;
+          border-color: $W-g-2;
+        }
+      }
+
+      &-order {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 0.5rem;
+        span {
+          color: $W-k;
+          font-size: 1.1rem;
+        }
+
+        select {
+          @extend %input__forms;
+          max-width: none;
+          border-right: 4px solid transparent;
+        }
+      }
+    }
+
+    &-products {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      min-width: 250px;
+      border: 1.5px solid $W-w;
+      padding: 1rem;
+      row-gap: 3rem;
+      @extend %border__radius;
+      grid-column: span 1;
+
+      &-product {
+        display: flex;
+        flex-direction: row;
+        color: $W-k;
+        text-decoration: none;
+        column-gap: 1rem;
+
+        &-img {
+          height: 100%;
+          max-width: 7rem;
+          object-fit: cover;
+          object-position: center;
+          @extend %border__radius;
+        }
+
+        &-text {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          h4 {
+            color: $W-k;
+            font-size: 1.6rem;
+          }
+
+          p {
+            color: $W-k;
+            opacity: 0.8;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+          }
+
+          &-rate {
+            display: flex;
+            flex-direction: row;
+            column-gap: 0.3rem;
+            align-items: center;
+            margin-bottom: 0.6rem;
+
+            img {
+              height: 1.3rem;
+            }
+
+            span {
+              color: $W-k;
+              font-size: clamp(0.7rem, 1vw, 0.9rem);
+            }
+          }
+
+          &-benefits {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            row-gap: 0.3rem;
+
+            span {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              color: $W-g;
+              column-gap: 0.3rem;
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .form__confirm {
+    &__benefits {
+      padding: 0px 5rem;
+    }
+
+    &__workshops {
+      padding: 0px 5rem;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .form__confirm {
+    &__benefits {
+      padding: 0px 12rem;
+    }
+
+    &__workshops {
+      grid-template-columns: repeat(3, 1fr);
+
+      &-products {
+        grid-column: span 2;
+      }
+    }
+  }
+}

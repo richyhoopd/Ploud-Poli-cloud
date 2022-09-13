@@ -1,0 +1,51 @@
+
+.hero__banner {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text__part {
+    width: 40%;
+    color: #04111D;
+    flex-grow: 1;
+    min-width: 250px;
+}
+
+h1 {
+    color: #04111D;
+    font-size: 52px;
+    margin: 0;
+}
+
+p {
+    font-size: 22px;
+    color: #292e3b;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+    .text__part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .text__part h1 {
+        text-align: center;
+    }
+
+    .text__part p {
+        text-align: center;
+    }
+
+    .hero__banner {
+        padding: 1rem;
+    }
+}
+
+
+

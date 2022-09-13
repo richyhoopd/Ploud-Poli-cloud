@@ -1,0 +1,72 @@
+@import "./var.scss";
+
+.task {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem calc((100vw - 1000px) / 2);
+
+
+  h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    text-align: start;
+  }
+
+  .no {
+    text-align: start;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    opacity: 0.9;
+    margin-bottom: 3rem;
+    color: #B7514A;
+  }
+
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--white);
+    margin-bottom: 2rem;
+    p {
+        text-align: start;
+        font-size: 1.2rem;
+        color: var(--black);
+        margin-bottom: 1rem;
+    }
+  }
+
+  &__file {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--white);
+    row-gap: 1rem;
+    margin-bottom: 2rem;
+
+    input[type=file] {
+        display: none;
+    }
+
+    label {
+        width: 100%;
+        cursor: pointer;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--first);
+    }
+
+    label:hover {
+        color: var(--second);
+    }
+
+    &-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 2rem;
+
+        
+    }
+  }
+}

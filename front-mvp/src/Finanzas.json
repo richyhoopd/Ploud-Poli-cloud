@@ -1,0 +1,102 @@
+[
+    {
+      "tittle": "cheapc",
+      "text": [
+        [
+          "cheapc es una plataforma de comercio electrónico descentralizado el cual mediante personas asociadas proporciona una amplia gama de servicios y soluciones técnicas, financieras y logísticas a todos aquellos que las requieran."
+        ],
+        [
+          "Buscamos la excelencia logística garantizando los mejores precios y beneficios de compra en todo el mercado. Eso nos obliga a tener unas condiciones financieras bastante transparentes a la vez que coherentes con nuestros socios y usuarios. Por ello optamos por declarar el funcionamiento básico de nuestras finanzas en este documento."
+        ]
+      ]
+    },
+    {
+      "tittle": "NEGOCIO 2022",
+      "text": [
+        [
+          "El modelo de negocio de cheapc se basa en el comisionado por transacción, anuncios, soluciones empresariales, comercialización de bienes de terceros, traslados y envíos. Lo que quiere decir que cheapc únicamente interviene en las transacciones, envíos, reparaciones y todos los servicios prestados en la plataforma como un organismo regulador y mediador, que se asegura del cumplimiento optimo y al pie de la letra de las condiciones establecidas entre las partes que conforman un intercambio de productos, servicios y/o cualquier tipo de transacción dentro de nuestra red."
+        ],
+        [
+          "Nuestro sistema nos permite contabilizar y repartir el dinero recaudado por cada uno de los movimientos realizados internamente a las partes que correspondientes, del cual la plataforma cobra una ligera remuneración por la mediación y gastos futuros por imprevistos, garantías o daños a la moral de la empresa."
+        ],
+        [
+          "Una vez comprendida la forma general del modelo financiero de la plataforma se procederá a detallar cada una de las comisiones cobradas por la plataforma, así como de donde se obtienen, como cubrimos los imprevistos y como creamos sustentabilidad interna para el bienestar de nuestra comunidad."
+        ]
+      ]
+    },
+    {
+      "tittle": "COMISIONES",
+      "text": [
+        [
+          "Las comisiones cobradas por nuestra plataforma comprenden desde los cambios hasta las transacciones por compra/venta y reparaciones, por ello intentamos mantenerlas justas de modo que no afecten directamente los precios de los productos o servicios. Siempre intentaremos mantener nuestras comisiones bajas, pero estas estan sujetas a las dimensiones de los objetos a movilizar, precio del activo y/o distancia que este deberá recorrer para ser entregado, reparado o intercambiado."
+        ],
+        [
+          "Cabe destacar que las comisiones de la plataforma varían sustancialmente dependiendo el tipo de transacción; Mientras en movimientos mas simples como: compra/venta las comisiones siempre serán mas bajas por su naturaleza unidireccional , en otros tipos de transacciones como intercambios y reparaciones las comisiones serán levemente elevadas debido a su naturaleza bidireccional, un envío de ida y otro de regreso."
+        ]
+      ]
+    },
+    {
+      "tittle": "COMPRA/VENTA",
+      "text": [
+        [
+          "Las comisiones por compra y venta de productos se cobran dependiendo el precio del producto, su condición, sus dimensiones y su destino."
+        ],
+        [
+          "La comisión por compraventa es impuesta por el vendedor al momento de subir un producto, este elige si ofrece la comisión por su cuenta, la cual va de los $75 a $260 pesos en celulares y laptops y de $75 a $350 en equipos o activos mas grandes."
+        ],
+        [
+          "En caso de que el vendedor decida darle envío gratis al comprador, este cubrirá todos los gastos de envío que pueden ascender hasta los $350, cosa que se vera reflejada directamente en el precio del producto."
+        ],
+        ["Precio inicial + comisión de envío = precio de venta"],
+        [
+          "Si el vendedor opta por que el comprador pague el envío, no se añadirá ningún valor adicional al precio inicial, sin embargo el comprador deberá pagar el envío de su compra por separado."
+        ]
+      ]
+    },
+    {
+      "tittle": "DIVISION DEL INGRESO A FAVOR POR COMISIONES",
+      "text": [
+        [
+          "Las comisiones cobradas para el traslado y revisión son principalmente la forma en la que cheapc le paga a sus afiliados para seguir haciendo su trabajo, es una forma de remunerarlos por desempeñar la labor de repartidores y a los aseguradores de calidad por revisar y auditar la calidad de todos nuestros insumos."
+        ],
+        [
+          "Somos conscientes de que el gasto que se realiza en gasolina, comida, tiempo y el uso de bienes personales para desempeñar estas actividades es latente, por ello dependiendo de la zona, precio y distancia del envío es como se remunerara a los colaboradores."
+        ],
+        [
+          "Así mismo la plataforma cobra un cuota por el uso, la cual es sustancialmente menor a la de nuestros colaboradores, por ello el ingreso se divide de la siguiente manera:"
+        ],
+        ["Repartidor = 45% del costo por traslado"],
+        ["QA = 45% del costo por traslado"],
+        ["Comision de plataforma = 10% del costo por traslado"]
+      ]
+    },
+    {
+      "tittle": "REPARACIONES E INTERCAMBIOS",
+      "text": [
+        [
+          "Las comisiones por reparaciones e intercambios también varían dependiendo del precio de la reparación o el intercambio, condición del producto a transportar, dimensiones del producto a transportar, la distancia de su destinatario de ida y regreso, la hora y la zona a recoger."
+        ],
+        [
+          "Las comisiones de reparaciones e intercambios van desde los $75 a $275 por transporte y garantizaron, siendo el cliente en todos los casos quien cubra el precio del mismo."
+        ]
+      ]
+    },
+    {
+      "tittle": "DIVISION DEL INGRESO A FAVOR POR COMISIONES",
+      "text": [
+        [
+          "Las comisiones cobradas para el traslado y revisión son principalmente la forma en la que cheapc le paga a sus afiliados para seguir haciendo su trabajo, es una forma de remunerarlos por desempeñar la labor de repartidores y a los aseguradores de calidad por revisar y auditar la calidad de todos nuestros insumos."
+        ],
+        [
+          "Somos conscientes de que el gasto que se realiza en gasolina, comida, tiempo y el uso de bienes personales para desempeñar estas actividades es latente, por ello dependiendo de la zona, precio y distancia del envío es como se remunerara a los colaboradores."
+        ],
+        [
+          "Así mismo la plataforma cobra un cuota por el uso, la cual es sustancialmente menor a la de nuestros colaboradores, por ello el ingreso se divide de la siguiente manera:"
+        ],
+        ["Repartidor A = 40% del costo por traslado"],
+        ["Repartidor B = 40% del costo por traslado"],
+        ["Comisión de plataforma = 20% del costo por traslado"]
+      ]
+    }
+  ]
+  

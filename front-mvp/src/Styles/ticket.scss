@@ -1,0 +1,207 @@
+@import "./var.scss";
+
+.ticket {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: $K-w;
+    padding: 2rem;
+    color: $W-k;
+
+    &__header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        margin-bottom: 3rem;
+
+        &__logo {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                height: 3rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+
+        &__tittle {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+        }
+
+    }
+
+    &__client {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1.5px solid $W-w;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+
+        h2 {
+            font-size: 1.3rem;
+        }
+
+        &__info {
+            display: block;
+
+            p {
+                font-size: 1.2rem;
+                text-align: end;
+            }
+        }
+    }
+
+    &__device {
+        margin: 0.5rem 0px;
+        padding: 1rem 0px;
+
+        h2 {
+            font-size: 1.3rem;
+            margin-bottom: 0.3rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    .poronga {
+        margin-top: 4rem;
+    }
+
+    &__photo {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        margin-bottom: 2rem;
+
+        h2 {
+            font-size: 1.4rem;
+        }
+
+        &-imgs {
+            display: flex;
+            flex-direction: row;
+            column-gap: 2rem;
+            justify-content: space-between;
+
+            img {
+                width: 47%;
+                height: 20rem;
+                object-fit: cover;
+                object-position: center;
+                @extend %border__radius;
+            }
+        }
+    }
+
+    &__service {
+        margin-bottom: 2rem;
+        h2 {
+            font-size: 1.3rem;
+            margin-bottom: 0.3rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__pay {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        row-gap: 1rem;
+        padding: 1rem 0px;
+        border-top: 1.5px solid $W-w;
+        border-bottom: 1.5px solid $W-w;
+
+        &-total {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            span {
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    &__terms {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        row-gap: 1rem;
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        p:last-child {
+            p {
+                padding-left: 3rem;
+                margin-top: 0.3rem;
+            }
+        }
+    }
+
+    &__contact {
+        padding: 1rem 0px;
+        border-top: 1.5px solid $W-w;
+        h2 {
+            font-size: 1.4rem;
+        }
+
+        span {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 2rem;
+
+        img {
+            height: 3rem;
+        }
+
+        span {
+            font-size: 3rem;
+            font-weight: bold;
+
+            span {
+                color: $W-g;
+            }
+        }
+    }
+}
