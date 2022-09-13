@@ -22,7 +22,7 @@ export default function Hero() {
         )}
         <p>Emplea tu tiempo haciendo tus tareas, no entregandolas.</p>
         <Link
-          to="/login"
+          to="/tablero"
           className="maint__btn"
           style={{
             backgroundColor: "#556FCC",
